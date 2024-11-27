@@ -1,0 +1,2 @@
+# avinash-palakurthi/go-by-examples.git/02_constants
+.\main.go:9:2: cannot assign to fruit (neither addressable nor a map index expression)
