@@ -1,0 +1,2 @@
+# avinash-palakurthi/go-by-examples.git/04_if_else
+.\main.go:28:12: invalid operation: age >= 21 (mismatched types *bufio.Reader and untyped int)
