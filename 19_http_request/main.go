@@ -24,6 +24,7 @@ func main() {
 		fmt.Println("Error whlie reading data", err)
 		return
 	}
+
 	fmt.Println("response : ", string(data))
 
 }
