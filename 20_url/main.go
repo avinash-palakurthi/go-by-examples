@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("This is url example...")
+	fmt.Println("1 . This is url example...")
 
 	myUrl := "https://example.com:8080/path/to/resourse?key=value1&key=value2"
 
@@ -25,4 +25,12 @@ func main() {
 	fmt.Println("Path :", parsedURL.Path)
 	fmt.Println("RawQuery :", parsedURL.RawQuery)
 
+	//todo : modifying url values from parsed url boject
+
+	parsedURL.Path = "/newPath"
+	parsedURL.RawQuery = "username=JOHN"
+
+	//todo : converting parsed url back to string
+	newUrl := parsedURL.String()
+	fmt.Println("new url :", newUrl)
 }
